@@ -13,7 +13,8 @@
     list-style: none;  
     padding: 10px;   
 }
-.cabecera__navegacion li{       
+.cabecera__navegacion li{ 
+    /* Listo para mergear */      
     margin-right: 50px; 
     transition: transform 1s, background-color 2s;         
 }
