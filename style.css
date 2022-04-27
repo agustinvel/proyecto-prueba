@@ -6,7 +6,7 @@
     width: 140px;
 } 
 .cabecera{
-    background-image: linear-gradient(gray, black);
+    background-image: linear-gradient(rgb(153, 153, 153), black);
 }
 .cabecera__navegacion{
     display: flex;              
@@ -83,7 +83,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: center;
-  background-image: linear-gradient(gray, black);
+  background-image: linear-gradient(rgb(153, 153, 153), black);
 }
 .pie p{
     color: white;
