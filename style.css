@@ -5,33 +5,37 @@
 .logoEstudio{           /* H E A D E R: */
     width: 140px;
 } 
+.cabecera{
+    background-image: linear-gradient(gray, black);
+}
 .cabecera__navegacion{
     display: flex;              
     list-style: none;  
-    padding: 10px;
-    
-    
+    padding: 10px;   
 }
 .cabecera__navegacion li{       
     margin-right: 50px; 
     transition: transform 1s, background-color 2s;         
 }
 .cabecera__navegacion li:hover{
-    transform: scale(1,3);
+    transform: scale(1,2);
     background-color: rgb(245, 217, 62);
 }
 .navegacion_link{
     font-size: 18px;
     text-decoration: none;
-    color: black;   
+    color: white;   
 }
 .cabecera__contacto{
     display: flex;
     list-style: none;
     padding: 10px;
 }
+.cabecera__contacto a{
+    color: gold;
+}
 .cabecera__contacto li{
-    margin-right: 10px;   
+    margin-right: 10px;
 }
 .cabecera{                 /* APLICO GRIDS */
     display: grid;
@@ -79,6 +83,10 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: center;
+  background-image: linear-gradient(gray, black);
+}
+.pie p{
+    color: white;
 }
 .pie__logo{
     width: 100px;
@@ -102,6 +110,12 @@
 }
 .pie__redesSociales li{
     margin: 5px;   
+}
+.pie__redesSociales a{
+    color: gold;
+}
+.pie__redesSociales h5{
+    color: white;
 }
 @media only screen and (max-width: 768px){
     .cabecera{
